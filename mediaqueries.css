@@ -712,11 +712,15 @@
         height: 110px;
         border-radius: 10px;
         z-index: 1;
-        opacity: 1;
+        opacity: 0;
         display: flex;
         transition: opacity 0.3s ease;
         justify-content: center;
         align-items: center;
+    }
+    
+    .imagenes-portfolio .div-cards-p:hover h1 {
+        opacity: 1;
     }
     
     .imagenes-portfolio .div-cards-p img {
