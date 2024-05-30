@@ -65,11 +65,16 @@
 
 
 .navbar-list{
+    list-style-type: none;
     width: 45%;
     display: flex;
     align-items: center;
     position: absolute;
     right: 0;
+}
+
+.navbar-list li {
+    margin: 0;
 }
 
 .navbar-list a{
@@ -82,8 +87,14 @@
     padding: 4px;
 }
 
-#toggle-menu {
-  display: none;
+#toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    display: none;
+    color: white;
+    cursor: pointer;
 }
 
 .navbar-list a:hover{
