@@ -82,7 +82,9 @@
     padding: 4px;
 }
 
-
+#toggle-menu {
+  display: none;
+}
 
 .navbar-list a:hover{
     background-color: rgb(255, 255, 255);
