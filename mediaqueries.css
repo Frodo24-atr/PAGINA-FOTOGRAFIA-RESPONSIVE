@@ -17,7 +17,7 @@
     
     .header{
         width: 100%;
-        height: 50px;
+        height: 55px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -140,10 +140,10 @@
       
     
     .subtitulo-elementos {
-        margin-top: 7rem;
-        margin-left: 10rem;
-        width: 60%;
-        font-size: 45px;
+        margin-top: 5rem;
+        margin-left: 0;
+        width: 100%;
+        font-size: 35px;
         color: rgb(25, 24, 24);
         transition: .3s;
     }
@@ -160,14 +160,13 @@
     .elementos {
         display: flex;
         justify-content: space-around;
-        width: 80%;
-        margin: 3rem auto;
+        width: 100%;
         flex-wrap: wrap;
     }
     
     .cards {
-        width: 14rem;
-        height: 14rem;
+        width: 10rem;
+        height: 10rem;
         margin: 10px;
         position: relative;
         overflow: hidden;
@@ -303,16 +302,15 @@
         margin: 0 auto;
         font-size: 20px;
     }
-    
+
+    /*servicios*/ /*servicios*/ /*servicios*/ /*servicios*/
     
     .servicios-h1 {
-        font-size: 3rem;
+        font-size: 29px;
         color: rgb(226, 21, 21);
         width: 90%;
         position: relative;
-        left: -40px;
-        margin-top: 8rem;
-        margin-bottom: 3rem;
+        left: 20px;
     }
     
     .servicios-h1 span{
@@ -328,8 +326,8 @@
     
     .contenedor-servicios-cards{
         transition: .5s;
-        height: 30rem;
-        margin-bottom: 5rem;
+        height: 20rem;
+        margin-bottom: 2rem;
     }
     
     .contenedor-servicios-cards:hover{
@@ -337,21 +335,21 @@
     }
     
     .contenedor-servicios-cards img{
-        width: 20rem;
-        height: 30rem;
+        width: 12rem;
+        height: 20rem;
         margin: .5rem;
         border-radius: 30px;
         cursor: pointer;
     }
     
     .contenido-cards-titulo{
-        font-size: 1.5rem;
+        font-size: 15px;
         background-color: rgba(26, 25, 25, 0.568);
         border-radius: 30px;
-        width: 12rem;
+        width: 120px;
         margin: auto;
         position: relative;
-        bottom: 30rem;
+        bottom: 322px;
         cursor: pointer;
     }
     
@@ -368,24 +366,24 @@
         background-color: rgba(0, 0, 0, 0.779);
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
-        width: 20rem;
-        height: 5.5rem;
+        width: 12rem;
+        height: 3.5rem;
         position: relative;
-        bottom: 8.89rem;
+        bottom: 5.89rem;
     }
     
     .contenido-cards-titulo-bottom h3{
-        font-size: 1.7rem;
+        font-size: 20px;
         color: rgb(255, 255, 255);
     }
     
     .contenido-cards-titulo-bottom button{
         border: 3px solid rgb(0, 0, 0);
-        width: 9rem;
-        height: 2.2rem;
+        width: 8rem;
+        height: 1.7rem;
         background-color: rgb(255, 255, 255);
         border-radius: 30px;
-        font-size: 1.2rem;
+        font-size: 16px;
         cursor: pointer;
     }
     
@@ -402,8 +400,8 @@
     }
     
     .titulo-servicios-camaras {
-        width: 50%;
-        font-size: 3rem;
+        width: 100%;
+        font-size: 2rem;
         color: rgb(13, 13, 13);
         margin-top: 5rem;
         margin-bottom: 1rem;
@@ -414,11 +412,9 @@
     }
     
     .subtitulo-servicios-camaras{
-       width: 45%;
-       margin-left: 3.5rem;
-       margin-bottom: 3rem;
+       width: 78%;
        font-size: 1.5rem;
-       color: rgb(255, 78, 14);
+       color: rgb(239 24 34);
     }
     
     .servicios-camaras-CNF{
@@ -429,8 +425,9 @@
     }
     
     .cards-camaras{
+        background-color: black;
         width: 20rem;
-        height: 36rem;
+        height: 32rem;
         margin: 5px;
         border-radius: 30px;
         transition: .3s;
@@ -451,18 +448,19 @@
     }
     
     .cards-camaras img{
-        width: 10rem;
-        height: 10rem;
-        margin: 10px;
+        width: 9rem;
+        height: 8rem;
+        margin: 8px;
     }
     
     
     .cards-camaras h1{
-        color: rgb(255, 253, 253);
-        background-color: rgb(39, 37, 37);
+        color: rgb(53, 49, 49);
+        background-color: rgb(255, 255, 255);
         padding: .3rem;
         border-radius: 20px;
-        margin: 10px;
+        margin: 8px;
+        font-size: 25px;
     }
     
     .cards-camaras a{
@@ -470,24 +468,25 @@
     }
     
     .cards-camaras h2{
-        color: rgb(234, 14, 14);
-        margin-bottom: 10px;
+        width: 90%;
+        margin: 8px auto;
+        font-size: 20px;
+        color: rgb(255, 34, 34);
     }
     
     .cards-camaras h3{
         font-size: 18px;
         width: 80%;
         margin: 0 auto;
-        color: rgb(76, 69, 69);
+        color: rgb(255, 253, 253);
     }
     
     .cards-camaras button{
-        padding: 3px;
+        padding: 5px;
         border: none;
-        border-radius: 15px;
-        background-color: rgb(17, 16, 16);
-        color: white;
-        margin-top: 15px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
     
     .cards-camaras button:hover{
@@ -522,11 +521,11 @@
     }
     
     .portfolio-h2-introduccion {
-        width: 80%;
+        width: 90%;
         margin: 2rem auto;
-        font-size: 2rem;
+        font-size: 20px;
         background-color: #f23e1a;
-        border-radius: 20px;
+        border-radius: 5px;
     }
     
     .portfolio-h2-introduccion span{
