@@ -505,7 +505,7 @@
     #portfolio{
         width: 100%;
         background-color: black;
-        height: 388vh;
+        height: auto;
     }
     
     .portfolio-h1 {
