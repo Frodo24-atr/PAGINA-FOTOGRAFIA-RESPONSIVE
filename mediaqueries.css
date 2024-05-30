@@ -1871,23 +1871,24 @@
         border-radius: 50%;
         border: 5px solid white;
         margin-right: 15px;
+        opacity: 0;
     }
     
     .About-Contenedor img:first-child{
         position: absolute;
         right: 0px;
-        top: 130px;
+        top: 76px;
         width: 17rem;
         height: 17rem;
         border-radius: 50%;
         border: 5px solid white;
         margin-right: 15px;
         transition: .3s;
-        opacity: 0;
+        opacity: 1;
     }
     
     .About-Contenedor img:first-child:hover{
-        opacity: 1;
+        opacity: 0;
         width: 17rem;
         height: 17rem;
         border-radius: 50%;
