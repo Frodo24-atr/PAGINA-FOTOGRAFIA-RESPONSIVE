@@ -894,7 +894,7 @@
     #contact{
         position: relative;
         bottom: 70px;
-        width: 90%;
+        width: 95%;
         height: auto;
         border-radius: 30px;
         margin: 0 auto;
@@ -925,7 +925,7 @@
         background-color: rgb(255, 255, 255);
         border-radius: 50%;
         border: 5px solid white;
-        margin: 1rem;
+        margin: 8px;
     }
     
     .img-container:hover{
@@ -965,9 +965,10 @@
     }
     
     .direcciones{
-        display: none;
+        display: flex;
         justify-content: center;
         margin-top: 2rem;
+        flex-direction: column;
     }
     
     .direcciones a{
@@ -975,18 +976,22 @@
     }
     
     .direcciones a:hover{
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
     }
     
     .direccion{
         display: flex;
+        padding: 7px;
+        margin: 5px auto;
         flex-direction: column;
-        margin: 0 auto;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 20px;
     }
     
     .direccion img{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
     
     .direccion h2 {
@@ -994,7 +999,7 @@
     }
     
     .direccion p{
-        margin-top: 10px;
+        font-size: 13px;
         color: white;
     }
     
@@ -1008,13 +1013,18 @@
     }
     
     .direccion iframe{
+        width: 315px;
+        margin: 5px;
+        height: 225px;
         border-radius: 30px;
     }
     
     .hecho-por{
         color: white;
-        padding: 1rem;
-        font-size: 20px;
+        background-color: #2b2a2a;
+        padding: 13px;
+        margin-top: 25px;
+        font-size: 19px;
     }
 }
 
