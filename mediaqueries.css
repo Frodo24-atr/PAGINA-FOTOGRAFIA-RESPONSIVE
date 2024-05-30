@@ -505,7 +505,7 @@
     #portfolio{
         width: 100%;
         background-color: black;
-        height: 460vh;
+        height: 388vh;
     }
     
     .portfolio-h1 {
@@ -682,9 +682,7 @@
     }
     
     .contenido-portfolio {
-        width: 80%;
-        margin: auto;
-        border-radius: 30px;
+        width: 90%;
     }
     
     .imagenes-portfolio {
@@ -709,22 +707,24 @@
         background-color: rgba(59, 53, 53, 0.714);
         color: rgb(230, 229, 229);
         padding: 7px;
+        font-size: 15px;
+        width: 72px;
+        height: 110px;
         border-radius: 10px;
         z-index: 1;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-    
-    .imagenes-portfolio .div-cards-p:hover h1 {
         opacity: 1;
+        display: flex;
+        transition: opacity 0.3s ease;
+        justify-content: center;
+        align-items: center;
     }
     
     .imagenes-portfolio .div-cards-p img {
-        margin: 10px;
-        width: 90%;
-        height: 300px;
+        margin: 5px;
+        width: 80%;
+        height: 230px;
         border: 5px solid rgb(223, 220, 220);
-        border-radius: 30px;
+        border-radius: 14px;
         z-index: 0;
         transition: .2s;
     }
@@ -788,10 +788,10 @@
     }
     
     .About-Presentacion h1{
-        width: 30%;
+        width: 70%;
         padding: 5px;
         margin: 0 auto;
-        font-size: 2.2rem;
+        font-size: 33px;
         background-color: #08485d;
         border-radius: 30px;
         transition: .3s;
@@ -813,14 +813,16 @@
     
     
     .About-Contenedor img{
-        width: 17rem;
-        height: 17rem;
+        width: 0;
+        height: 0;
         border-radius: 50%;
         border: 5px solid white;
         margin-right: 15px;
+        opacity: 0;
     }
     
     .About-Contenedor img:first-child{
+        display: none;
         position: absolute;
         right: 16px;
         top: 16px;
@@ -830,26 +832,17 @@
         border: 5px solid white;
         margin-right: 15px;
         transition: .3s;
-        opacity: 0;
-    }
-    
-    .About-Contenedor img:first-child:hover{
         opacity: 1;
-        width: 17rem;
-        height: 17rem;
-        border-radius: 50%;
-        border: 5px solid white;
-        margin-right: 15px;
     }
     
     .About-Parrafos{
-        width: 70%;
+        width: 90%;
     }
     
     
     .About-p{
         color: rgb(229, 224, 224);
-        padding: 1rem;
+        padding: 5px;
         text-align: start;
         font-size: 20px;
     }
@@ -895,7 +888,9 @@
     /*SECCION CONTACTO*/ /*SECCION CONTACTO*/ /*SECCION CONTACTO*/ /*SECCION CONTACTO*/
     
     #contact{
-        width: 70%;
+        position: relative;
+        bottom: 70px;
+        width: 90%;
         height: auto;
         border-radius: 30px;
         margin: 0 auto;
@@ -904,11 +899,9 @@
     
     
     .contacto-h1 h1{
-        padding: 20px;
-        margin-top: 10rem;
+        padding: 10px;
         border-radius: 30px;
-        transition: .3s;
-        font-size: 2.4rem;
+        font-size: 30px;
         transition: .3s;
         color: rgb(255, 255, 255);
     }
@@ -917,15 +910,14 @@
     .img-container-general {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: 100%;
         transition: .3s;
     }
     
     .img-container-general img {
-        width: 7rem;
-        height: 7rem;
-        border-radius: 8px;
+        width: 3rem;
+        height: 3rem;
         background-color: rgb(255, 255, 255);
         border-radius: 50%;
         border: 5px solid white;
