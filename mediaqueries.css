@@ -1,5 +1,5 @@
 /*celulares*//*celulares*//*celulares*//*celulares*/
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     *{
         margin: 0;
         padding: 0;
@@ -1018,7 +1018,7 @@
 }
 
 /*tablets*//*tablets*//*tablets*//*tablets*//*tablets*/
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-width: 761px) and (max-width: 990px) {
     *{
         margin: 0;
         padding: 0;
