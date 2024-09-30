@@ -1106,10 +1106,12 @@
     
     
     .navbar-list{
+        margin-right: 1rem;
         list-style-type: none;
-        width: 62%;
+        width: auto;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     
     .navbar-list li {
