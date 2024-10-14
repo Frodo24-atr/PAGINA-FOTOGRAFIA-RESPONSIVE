@@ -511,7 +511,7 @@
 #portfolio{
     width: 100%;
     background-color: black;
-    height: 460vh;
+    height: auto;
 }
 
 .portfolio-h1 {
@@ -688,23 +688,20 @@
 }
 
 .contenido-portfolio {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    border-radius: 30px;
 }
 
 .imagenes-portfolio {
-    border-radius: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajuste automático para diferentes tamaños */
+    grid-gap: 0px; /* Sin espacio entre las imágenes */
+    margin-top: 20px;
 }
 
 .imagenes-portfolio .div-cards-p {
-    border-radius: 30px;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .imagenes-portfolio .div-cards-p h1 {
@@ -719,6 +716,8 @@
     z-index: 1;
     opacity: 0;
     transition: opacity 0.3s ease;
+    text-align: center;
+    width: 90%;
 }
 
 .imagenes-portfolio .div-cards-p:hover h1 {
@@ -726,65 +725,12 @@
 }
 
 .imagenes-portfolio .div-cards-p img {
-    margin: 10px;
-    width: 90%;
-    height: 300px;
-    border: 5px solid rgb(223, 220, 220);
-    border-radius: 30px;
-    z-index: 0;
-    transition: .2s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que las imágenes se ajusten bien sin deformarse */
+    display: block;
 }
 
-.imagenes-portfolio .div-cards-p img:hover{
-    border: 5px solid rgb(184, 51, 51);
-}
-
-
-
-.imagenes-portfolio .div-cards-p:first-child {
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(2) {
-    grid-column: 3 / 5;
-    grid-row: 1 / 2;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(4) {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(5) {
-    grid-column: 2 / 5;
-    grid-row: 2 / 3;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(6) {
-    grid-column: 2 / 4;
-    grid-row: 3 / 4;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(9) {
-    grid-column: 1 / 3;
-    grid-row: 5 / 6;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(13) {
-    grid-column: 3 / 5;
-    grid-row: 5 / 6;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(17) {
-    grid-column: 3 / 5;
-    grid-row: 6 / 7;
-}
-
-.imagenes-portfolio .div-cards-p:nth-child(23) {
-    grid-column: -2 / -4;
-    grid-row: 8 / 9;
-}
 
 /*SECCION ABOUT*/ /*SECCION ABOUT*/ /*SECCION ABOUT*/ /*SECCION ABOUT*/ 
 /*SECCION ABOUT*/ /*SECCION ABOUT*/ /*SECCION ABOUT*/ /*SECCION ABOUT*/ 
@@ -822,30 +768,17 @@
     width: 17rem;
     height: 17rem;
     border-radius: 50%;
-    border: 5px solid white;
-    margin-right: 15px;
+    border: 2px solid white;
+    transition: .3s ease-in-out
 }
 
-.About-Contenedor img:first-child{
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    width: 17rem;
-    height: 17rem;
-    border-radius: 50%;
-    border: 5px solid white;
-    margin-right: 15px;
-    transition: .3s;
-    opacity: 0;
-}
-
-.About-Contenedor img:first-child:hover{
+.About-Contenedor img:hover{
     opacity: 1;
     width: 17rem;
     height: 17rem;
     border-radius: 50%;
-    border: 5px solid white;
-    margin-right: 15px;
+    border: 2px solid rgb(214, 33, 33);
+    
 }
 
 .About-Parrafos{
@@ -860,40 +793,10 @@
     font-size: 20px;
 }
 
-.about-p-nombre{
+.span-about{
     color: rgb(225, 29, 29);
     text-align: start;
     font-size: 25px;
-}
-
-.about-p-nikon{
-    color: rgb(225, 29, 29);
-    text-align: start;
-    font-size: 23px;
-}
-
-.about-p-calidad{
-    color: rgb(225, 29, 29);
-    text-align: start;
-    font-size: 20px;
-}
-
-.about-p-fotografia{
-    color: rgb(225, 29, 29);
-    text-align: start;
-    font-size: 20px;
-}
-
-.about-p-especiales{
-    color: rgb(225, 29, 29);
-    text-align: start;
-    font-size: 24px;
-}
-
-.about-p-unicos{
-    color: rgb(225, 29, 29);
-    text-align: start;
-    font-size: 24px;
 }
 
 
@@ -929,8 +832,8 @@
 }
 
 .img-container-general img {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
@@ -939,7 +842,7 @@
 }
 
 .img-container:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: .3s;
 }
 
