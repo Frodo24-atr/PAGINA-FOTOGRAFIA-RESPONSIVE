@@ -136,13 +136,6 @@
         color: rgb(255, 255, 255);
         margin: 0 auto;
         transition: 1s;
-        border-radius: 50px;
-    }
-    
-    .presentacion-titulo h1:hover{
-        background-color: rgba(255, 255, 255, 0.822);
-        color: rgb(0, 0, 0);
-        border-radius: 50px;
     }
       
     
@@ -1095,14 +1088,6 @@
         font-size: 50px;
         color: rgb(255, 255, 255);
         margin: 0 auto;
-        transition: 1s;
-        border-radius: 50px;
-    }
-    
-    .presentacion-titulo h1:hover{
-        background-color: rgba(255, 255, 255, 0.822);
-        color: rgb(0, 0, 0);
-        border-radius: 50px;
     }
       
     

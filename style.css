@@ -122,32 +122,25 @@
 
 .presentacion-titulo{
     position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .presentacion-titulo h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 100%;
     height: auto;
     font-size: 50px;
     color: rgb(255, 255, 255);
-    margin: 0 auto;
+    margin: 0;
     transition: 1s;
-    border-radius: 50px;
 }
-
-.presentacion-titulo h1:hover{
-    background-color: rgba(255, 255, 255, 0.822);
-    color: rgb(0, 0, 0);
-    border-radius: 50px;
-}
-  
 
 .subtitulo-elementos {
     margin-top: 7rem;
-    margin-left: 10rem;
-    width: 60%;
+    width: 100%;
     font-size: 45px;
     color: rgb(25, 24, 24);
     transition: .3s;
