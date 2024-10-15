@@ -695,7 +695,7 @@
     
     .imagenes-portfolio {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste automático para diferentes tamaños */
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); /* Ajuste automático para diferentes tamaños */
         grid-gap: 0px; /* Sin espacio entre las imágenes */
         margin-top: 20px;
     }
